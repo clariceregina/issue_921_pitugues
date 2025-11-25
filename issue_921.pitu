@@ -1,0 +1,19 @@
+var texto = leia('Insira um texto: ')
+var vetor_texto = texto.dividir('')
+var letras_validas = []
+var quantidade = 0
+var lista_letras = ['a','A','á','Á','à','À','â','Â','ã','Ã','ä','Ä', 'b','B', 'c','C','ç','Ç', 'd','D', 'e','E','é','É','è','È','ê','Ê','ë','Ë', 'f','F', 'g','G', 'h','H', 'i','I','í','Í','ì','Ì','î','Î','ï','Ï', 'j','J', 'k','K', 'l','L', 'm','M', 'n','N', 'o','O','ó','Ó','ò','Ò','ô','Ô','õ','Õ','ö','Ö', 'p','P', 'q','Q', 'r','R', 's','S', 't','T', 'u','U','ú','Ú','ù','Ù','û','Û','ü','Ü', 'v','V', 'w','W', 'x','X', 'y','Y','ý','Ý','ÿ','Ÿ', 'z','Z']
+
+para cada letra em vetor_texto:
+    se lista_letras.inclui(letra):
+        letras_validas.adicionar(letra)
+
+para cada letra em letras_validas:
+    quantidade = quantidade + 1
+
+# O código comentado abaixo funciona excluindo os espaços da contagem, mas não exclui os caracteres de pontuação, dessa forma, o modo que eu encontrei para resolver foi de modo verboso com a lista_letras
+#para cada letra em vetor_texto:
+#   se letra != ' ':
+#       quantidade = quantidade + 1
+
+imprima('A frase enviada possui ${quantidade} letras.')
