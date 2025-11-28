@@ -1,6 +1,6 @@
-# Resolução da issue 921
+# Resolução da issue 9
 
-Resolução da issue "[Pituguês] [PyBr2025] Desafio: Contar palavras em um texto #921", disponível em https://github.com/DesignLiquido/delegua/issues/921
+Resolução da issue "[Pituguês] [PyBr2025] Desafio: Contar letras em um texto #9", disponível em https://github.com/cumbucadev/desafios-pitugues/issues/9
 
 ## O que é Pituguês?
 
